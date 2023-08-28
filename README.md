@@ -17,6 +17,11 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Reconstruir la BD con semilla
+
+```
+http://127.0.0.1:3000/api/seed
+```
 ## Stack usado
 * MongoDB
 * Nest
